@@ -20,8 +20,8 @@
             "sources": [ 
                 { 
                     "type": "archive", 
-                    "url": "https://download.kde.org/stable/release-service/22.04.0/src/libkeduvocdocument-22.04.0.tar.xz",
-                    "sha256": "b0d07b022a1c5780a04c6cc25ac6436d9ebd53c4271fdb102e24666bb7ec9734"
+                    "url": "https://download.kde.org/stable/release-service/22.04.1/src/libkeduvocdocument-22.04.1.tar.xz",
+                    "sha256": "51554560748045617b8489b494f33756d615388d0a2ae92b4706082d4f338717"
                 } 
             ],
             "config-opts": [
@@ -34,8 +34,8 @@
             "sources": [ 
                 { 
                     "type": "archive", 
-                    "url": "https://download.kde.org/stable/release-service/22.04.0/src/kdeedu-data-22.04.0.tar.xz",
-                    "sha256": "3458eea043991bbd6f3fcb829b807e48eaf6a6800a0ca19c3e25c15435afb808"
+                    "url": "https://download.kde.org/stable/release-service/22.04.1/src/kdeedu-data-22.04.1.tar.xz",
+                    "sha256": "c23214612c305fba15807d21018266824b7f60f163f03234fdb289493eb1ecd1"
                 } 
             ]
         },
@@ -45,8 +45,8 @@
             "sources": [ 
                 { 
                     "type": "archive", 
-                    "url": "https://download.kde.org/stable/release-service/22.04.0/src/khangman-22.04.0.tar.xz",
-                    "sha256": "69ab8b28cee12d486e6ebf8274e70783bb112da28f494b75677df5e762cb8436"
+                    "url": "https://download.kde.org/stable/release-service/22.04.1/src/khangman-22.04.1.tar.xz",
+                    "sha256": "e60646211fbd4afccd06cc9402e5b4203d58fa0bd14e81c1e43013e1a008bd26"
                 } 
             ]
         }
