@@ -17,18 +17,18 @@
         {
             "name": "libkeduvocdocument",
             "buildsystem": "cmake-ninja",
-            "sources": [ 
-                { 
-                    "type": "archive", 
-                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/libkeduvocdocument-22.04.3.tar.xz",
-                    "sha256": "02a4b5945c938c119784b8e9d96778f613e6f2d6ddb9615f71c8c8cae07d6033",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/libkeduvocdocument-22.08.0.tar.xz",
+                    "sha256": "b23d6136e04bea1065e413b619e7bd0ba7944320c29144f46b62a03fff5388c5",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/libkeduvocdocument-$version.tar.xz"
                     }
-                } 
+                }
             ],
             "config-opts": [
                 "-DBUILD_TESTING=OFF"
@@ -37,35 +37,35 @@
         {
             "name": "kdeedu-data",
             "buildsystem": "cmake-ninja",
-            "sources": [ 
-                { 
-                    "type": "archive", 
-                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/kdeedu-data-22.04.3.tar.xz",
-                    "sha256": "320463fe32177e49ffb4747f890d83b471f091477473439bfe0531b0ba5fb3e4",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/kdeedu-data-22.08.0.tar.xz",
+                    "sha256": "661a15b082a58cc10e6d171bf801922c46f2ab2a472b03a2aa5ae44d883cf302",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kdeedu-data-$version.tar.xz"
                     }
-                } 
+                }
             ]
         },
         {
             "name": "khangman",
             "buildsystem": "cmake-ninja",
-            "sources": [ 
-                { 
-                    "type": "archive", 
-                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/khangman-22.04.3.tar.xz",
-                    "sha256": "8aaa989a50a88a712f29841a79ba7ebe6dbebd9584dc5bec0a249f36ffb5aa03",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/khangman-22.08.0.tar.xz",
+                    "sha256": "2d6f1f4d1815c8c98964a55185700e89161c17fcbbdb53b55d9c6f85e72b3053",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/khangman-$version.tar.xz"
                     }
-                } 
+                }
             ]
         }
     ]
