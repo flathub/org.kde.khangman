@@ -20,8 +20,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.2/src/libkeduvocdocument-23.04.2.tar.xz",
-                    "sha256": "9c0ce06a7f7515032adc6ee0341bdd0d1134a5a7afb2fc25e89803af2d170349",
+                    "url": "https://download.kde.org/stable/release-service/23.04.3/src/libkeduvocdocument-23.04.3.tar.xz",
+                    "sha256": "c026afc4c945c9f724bd7204d91731bc5cff68c1146f6b8af60090e13d541613",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -40,8 +40,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.2/src/kdeedu-data-23.04.2.tar.xz",
-                    "sha256": "ba9d6b1f70bf68e3f3fc8afb7bfd8cfa83f285ed163cefac10249d65d949e8fe",
+                    "url": "https://download.kde.org/stable/release-service/23.04.3/src/kdeedu-data-23.04.3.tar.xz",
+                    "sha256": "cc7962e698deaab73aa3e4a5a2e7f2a3abda4587c2021b3d733573b8ac127162",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -57,8 +57,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.2/src/khangman-23.04.2.tar.xz",
-                    "sha256": "90f348f2b6f6821be0a9c29f70c8fc483f1d3ff712b62af60084c38a7340a73c",
+                    "url": "https://download.kde.org/stable/release-service/23.04.3/src/khangman-23.04.3.tar.xz",
+                    "sha256": "fc9fb08ec3c108520136d95db8e3b316e50df401733e0e34e1a790b3dc34f4e7",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
