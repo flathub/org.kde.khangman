@@ -1,22 +1,26 @@
 {
     "id": "org.kde.khangman",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-23.08",
+    "runtime-version": "6.6",
     "sdk": "org.kde.Sdk",
     "command": "khangman",
     "rename-icon": "khangman",
     "finish-args": [
-        "--share=network",
-        "--socket=pulseaudio",
+        "--device=dri",
         "--share=ipc",
-        "--socket=x11",
-        "--socket=wayland",
-        "--device=dri"
+        "--share=network",
+        "--socket=fallback-x11",
+        "--socket=pulseaudio",
+        "--socket=wayland"
     ],
     "modules": [
         {
             "name": "libkeduvocdocument",
             "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DQT_MAJOR_VERSION=6"
+            ],
             "sources": [
                 {
                     "type": "archive",
@@ -29,9 +33,6 @@
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/libkeduvocdocument-$version.tar.xz"
                     }
                 }
-            ],
-            "config-opts": [
-                "-DBUILD_TESTING=OFF"
             ]
         },
         {
@@ -52,13 +53,33 @@
             ]
         },
         {
+            "name": "kirigamiaddons",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF"
+            ],
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.0.1.tar.xz",
+                    "sha256": "9d013847efb0048c6a2799ee0ed281b14eee15314ac20d7fba853197e45f29b7",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 242933,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-$version.tar.xz"
+                    }
+                }
+            ]
+        },
+        {
             "name": "khangman",
             "buildsystem": "cmake-ninja",
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/khangman-23.08.5.tar.xz",
-                    "sha256": "4307017c1ada08a1cda5a38b45aebdd250520adcc773c580938fb1cb1fcd56f6",
+                    "url": "https://download.kde.org/stable/release-service/24.02.1/src/khangman-24.02.1.tar.xz",
+                    "sha256": "0916f6657a9c0c82364af5208865c4a011680f2370e6d98f6f6847c87bd6e467",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
