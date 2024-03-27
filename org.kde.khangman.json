@@ -17,6 +17,10 @@
         {
             "name": "libkeduvocdocument",
             "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_TESTING=OFF",
+                "-DQT_MAJOR_VERSION=6"
+            ],
             "sources": [
                 {
                     "type": "archive",
@@ -29,9 +33,6 @@
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/libkeduvocdocument-$version.tar.xz"
                     }
                 }
-            ],
-            "config-opts": [
-                "-DBUILD_TESTING=OFF"
             ]
         },
         {
