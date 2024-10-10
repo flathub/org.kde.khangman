@@ -24,8 +24,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.1/src/libkeduvocdocument-24.08.1.tar.xz",
-                    "sha256": "0e99500e4e3abf4e1795a390c3728ce9fe799b566965d58d4eb25003a1303291",
+                    "url": "https://download.kde.org/stable/release-service/24.08.2/src/libkeduvocdocument-24.08.2.tar.xz",
+                    "sha256": "bfd7b468a5309421c889708f43568385fdccdef1d652de15666feaf59f5972a1",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -41,8 +41,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.1/src/kdeedu-data-24.08.1.tar.xz",
-                    "sha256": "f11477f0da0bf242dc309e0bc461a43fa01d94743a3049bd336af58dd959b4e2",
+                    "url": "https://download.kde.org/stable/release-service/24.08.2/src/kdeedu-data-24.08.2.tar.xz",
+                    "sha256": "5cd7f63036062802f1935e3b85744c61200b2a2dc22f4d49403f9cce1faa8f5a",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -61,8 +61,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.4.0.tar.xz",
-                    "sha256": "56e3ceb52055b5603320ea08b27d3673d32a391a8d58646d998227d8b51f0a93",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-1.5.0.tar.xz",
+                    "sha256": "f9dfd191022b633ea3348f84730d7158a159dfe49668dba0a9e9bd678ac44e54",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242933,
@@ -78,8 +78,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.1/src/khangman-24.08.1.tar.xz",
-                    "sha256": "9c463c92147dc6398e49194fd789f7a6d16b9052ef80c8a0869f9cb52ef14cad",
+                    "url": "https://download.kde.org/stable/release-service/24.08.2/src/khangman-24.08.2.tar.xz",
+                    "sha256": "9bd6d743735bac434e38df90f5be856d047183a494c76b65c4a881ef43eebbea",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
